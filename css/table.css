@@ -1,0 +1,15 @@
+table, td
+{
+max-height:650px;
+}
+th
+{
+background-color:maroon;
+height:auto;
+}
+table{
+overflow-y:scroll;
+width:100;
+color:white;
+display:block;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+html{height:100%; margin:0; padding:0;}
+body{
+	color:white;
+	background-color:#000;
+}
+img{ border-style:none;
+    float: left;
+}
+	a:link {color:#6F0};
+	a:visited {color:#F00};
+	a:hover {color:#F63};
+	a:active {color:#09F};
+#leftlogo{	height:100px;	width:500px;}
+#signin{
+	position:fixed;
+	right:20px;
+	float:left;
+	font-size:20px;
+	background-color:#00F;
+}
+.navbar{
+	background-color:#039;
+	width:120px;
+	position:fixed;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+#results{
+	position:absolute;
+    top:0px;
+    left:125px;
+	width:725px;
+    background-color:#09F;
+	box-shadow:#999;
+
+}
+#form{
+	border-top:2px solid maroon;
+    border-bottom:2px solid marron;
+	border-right:2px solid maroon;
+	border-left:2px solid marron;
+	background-color:#333;
+	color:#FFF;
+	width:600px;
+	float:left;
+    position:absolute;
+    left:300px;
+    top:100px;
+}
+table {overflow-y: scroll;overflow-x:scroll; }
+table tbody {max-height:700px; overflow-y:scroll; display:block; color:white; }
+table th{background-color:maroon; color:white;}
+#floatleft{ float:left;}
+#floatRight{float:right:}
+#clear{clear:both;}
