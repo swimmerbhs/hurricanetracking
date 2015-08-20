@@ -1,8 +1,8 @@
 <?php
-	$host="198.71.225.57";
-	$user="lauren";
-	$password="justin@02";
-	$dbName="hurricane";
+	$host="";
+	$user="";
+	$password="";
+	$dbName="";
 	
 	$con=mysqli_connect($host,$user,$password,$dbName);
 	
